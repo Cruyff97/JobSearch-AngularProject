@@ -3,11 +3,14 @@
     "source": "functions"
   },
   "hosting": {
-    "public": "public",
+    "public": "init/jobSearch",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ]
+  },
+  "database": {
+    "rules": "database.rules.json"
   }
 }
