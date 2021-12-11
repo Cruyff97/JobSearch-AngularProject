@@ -1,0 +1,54 @@
+.dateandloc{
+    padding: 5px;
+}
+.aboutcomp{
+    margin: 0;
+}
+.logocompanies{
+display: block;
+margin: auto;
+width: 108px;
+height: auto;
+padding:3px}
+.box{
+    padding: 15px;
+    padding-left: 20px;
+    position: relative;
+    border-top: 5px solid #8EC5FC;
+    
+    
+}
+.logocomp{border-radius: 28px;
+    height: 56px;
+    position: absolute;
+    right: 20px;
+  
+    width: 156px;
+}
+.contents{
+    margin-top: 25px;
+}
+.jobsName{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #333;
+    word-wrap: break-word;
+    margin: 10px 0;
+}
+.companyName{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 38px;
+    word-wrap: break-word;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+.jobstitle{
+    padding-left: 15px;
+}
+.jobsdate{
+    padding-left: 10px;
+}
+.datetypography{
+margin: 0px 0px 0px;}

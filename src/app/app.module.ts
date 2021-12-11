@@ -1,16 +1,36 @@
 import { NgModule } from '@angular/core';
+import {HttpClientModule} from '@angular/common/http'
 import { BrowserModule } from '@angular/platform-browser';
-
+import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
+import { SearchBarComponent } from './search-bar/search-bar.component';
+import { PageListComponent } from './page-list/page-list.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSelectModule} from '@angular/material/select';
+import {MatButtonModule} from '@angular/material/button';
+import {LayoutModule} from '@angular/cdk/layout';
+import {MatTableModule} from '@angular/material/table';
+import { JobDetailsComponent } from './job-details/job-details.component';
+import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SearchBarComponent,
+    PageListComponent,
+    JobDetailsComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MatSelectModule,
+    MatButtonModule,
+    LayoutModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
