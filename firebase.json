@@ -3,7 +3,7 @@
     "source": "functions"
   },
   "hosting": {
-    "public": "init/jobSearch",
+    "public": "dist/jobSearch",
     "ignore": [
       "firebase.json",
       "**/.*",
