@@ -5,6 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Description 
 This is a small project using Angular for a jobsearch site. The site uses API from themuse.com for showing engineering avaibles jobs. It is possible to choose beetween Enter Level Jobs, Middle Level Jobs, Senior Level Jobs, internship and manager positions. In addition it is possible to insert a company name to show their avaible positions.
 So i made different API calls for this project and utilize angular features such as directives, services and others. 
+
 # What i learned
 I learned how Angular works and how it helps application developing. I think angular has a very high learning curve, but when you're comfortable with it, really helps and simplify development. 
 In addition I learned Typescript which is also usefull to fill some gaps that Javascript has.
