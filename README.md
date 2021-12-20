@@ -2,6 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.1.
 
+## Description 
+This is a small project using Angular for a jobsearch site. The site uses API from themuse.com for showing engineering avaibles jobs. It is possible to choose beetween Enter Level Jobs, Middle Level Jobs, Senior Level Jobs, internship and manager positions. In addition it is possible to insert a company name to show their avaible positions.
+So i made different API calls for this project and utilize angular features such as directives, services and others. 
+# What i learned
+I learned how Angular works and how it helps application developing. I think angular has a very high learning curve, but when you're comfortable with it, really helps and simplify development. 
+In addition I learned Typescript which is also usefull to fill some gaps that Javascript has.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -25,3 +32,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Dependencies
+
+The project dependencies are:
+-bulma and angular material for styling
+-spinners-angular 
+
+
